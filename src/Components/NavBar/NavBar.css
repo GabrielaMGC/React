@@ -1,0 +1,20 @@
+.navbar-site{
+    background-color: rgb(31, 209, 31);
+}
+.Pagina_inicial{
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-family: italic;
+}
+
+.pesquisar{
+    font-family: cursive;
+}
+
+a:hover {
+    background-color: rgb(0, 0, 0);
+    color: snow;
+}
