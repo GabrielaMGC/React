@@ -1,10 +1,12 @@
 import React from "react";
 import './NavBar.css';
+import aviao from '../Imagens/aviao.png'
 
 function Navbar (){
     return(
         <nav class="navbar navbar-expand-lg navbar-dark navbar-site">
         <div class="container-fluid">
+          <img src={aviao}/>
           <a class="Pagina_inicial" href="#">Início</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
