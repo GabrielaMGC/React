@@ -1,12 +1,14 @@
 import React from "react";
 import './NavBar.css';
 import aviao from '../Imagens/aviao.png'
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 function Navbar (){
     return(
         <nav class="navbar navbar-expand-lg navbar-dark navbar-site">
         <div class="container-fluid">
-          <img src={aviao}/>
+          <Aviao src={aviao}/>
           <a class="Pagina_inicial" href="#">Início</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -14,7 +16,7 @@ function Navbar (){
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Coisas para levar</a>
+              <Link to="about" class="nav-link active" >Coisas para levar</Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Melhores hotéis</a>
@@ -45,3 +47,8 @@ function Navbar (){
 }
   
 export default Navbar;
+
+const Aviao = styled.img`
+    widht: 25px;
+    height: 25px;
+`;
