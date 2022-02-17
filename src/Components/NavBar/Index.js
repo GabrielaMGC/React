@@ -9,14 +9,14 @@ function Navbar (){
         <nav class="navbar navbar-expand-lg navbar-dark navbar-site">
         <div class="container-fluid">
           <Aviao src={aviao}/>
-          <a class="Pagina_inicial" href="#">Início</a>
+          <Link to="/" class="Pagina_inicial">Início</Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-              <Link to="about" class="nav-link active" >Coisas para levar</Link>
+              <Link to="/coisas_para_levar" class="nav-link active" >Coisas para levar</Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Melhores hotéis</a>
@@ -45,6 +45,12 @@ function Navbar (){
       </nav>
     )
 }
+
+
+
+
+
+
   
 export default Navbar;
 
