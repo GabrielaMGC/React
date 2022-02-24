@@ -73,5 +73,4 @@ export default Coisas_para_levar;
 const ImagemFrutas = styled.img`
 width: 100vw;
 height: 92vh;
-
 `;
