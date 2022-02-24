@@ -33,7 +33,7 @@ function Navbar (){
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active">Preços atuais</a>
+              <Link to="/precos" class="nav-link active">Preços Atuais</Link>
               </li>
             </ul>
             <form class="d-flex">
