@@ -19,7 +19,7 @@ function Navbar (){
               <Link to="/coisas_para_levar" class="nav-link active" >Coisas para levar</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Melhores hotéis</a>
+              <Link to="/hotel" class="nav-link active">Melhores Hotéis</Link>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
