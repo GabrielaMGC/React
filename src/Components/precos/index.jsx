@@ -23,228 +23,41 @@ const Precos = () =>{
                 <tbody>
                     <tr>
                     <td>Estados Unidos</td>
-                    <td>AUSTRALIAN COMPANY </td>
-                    <td>$1.38</td>
-                    <td>+2.01</td>
-                    <td>Orlando, Pier Park e St. Andrews State Park</td>
+                    <td>GOL </td>
+                    <td>R$ 3.799,00</td>
+                    <td>Auberge du Soleil (R$ 6.061,00)</td>
+                    <td>Orlando, Pier Park, St. Andrews State Park, The Galleria</td>
                     </tr>
                     <tr>
-                    <td>AAD</td>
-                    <td>AUSENCO</td>
-                    <td>$2.38</td>
-                    <td>-0.01</td>
-                    <td>-1.36%</td>
+                    <td>França</td>
+                    <td>Azul</td>
+                    <td>R$ 2.926,00</td>
+                    <td>Four Seasons Hotel George V, Paris (R$ 10.464,00)</td>
+                    <td>Museu do Louvre, torre Eiffel, Catedral de Notre-Dame, Palácio de Versalhes e Arco do Triunfo</td>
                     </tr>
                     <tr>
-                    <td>AAX</td>
-                    <td>ADELAIDE</td>
-                    <td>$3.22</td>
-                    <td>+0.01</td>
-                    <td>+1.36%</td>
+                    <td>Itália</td>
+                    <td>GOL</td>
+                    <td>R$ 4.365,00</td>
+                    <td>Four Seasons Hotel Firenze (R$ 3.578,00)</td>
+                    <td>Roma, Milão, Veneza</td>
                     </tr>
                     <tr>
-                    <td>XXD</td>
-                    <td>ADITYA BIRLA</td>
-                    <td>$1.02</td>
-                    <td>-1.01</td>
-                    <td>+2.36%</td>
+                    <td>Egito</td>
+                    <td>Azul</td>
+                    <td>R$ 3.871,00</td>
+                    <td>Rixos Premium Magawish Suites & Villas (R$ 1.818,00)</td>
+                    <td>Pirâmides de Gizé, Khan el Khalili, Biblioteca de Alexandria, Templo de Karnak,
+                         Passeio de balão em Luxor, Cruzeiro pelo Rio Nilo, Vila Núbia, em Aswan, Resorts de Hurghada</td>
                     </tr>
                     <tr>
-                    <td>AAC</td>
-                    <td>AUSTRALIAN COMPANY </td>
-                    <td>$1.38</td>
-                    <td>+2.01</td>
-                    <td>-0.36%</td>
+                    <td>Dubai, Emirados Unidos</td>
+                    <td>Ethiopian</td>
+                    <td>R$ 3.576,00</td>
+                    <td>Burj Al Arab (R$ 11.060,00)</td>
+                    <td>Burj Khalifa, Burj Al Arab, Dubai Mall</td>
                     </tr>
-                    <tr>
-                    <td>AAD</td>
-                    <td>AUSENCO</td>
-                    <td>$2.38</td>
-                    <td>-0.01</td>
-                    <td>-1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAX</td>
-                    <td>ADELAIDE</td>
-                    <td>$3.22</td>
-                    <td>+0.01</td>
-                    <td>+1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>XXD</td>
-                    <td>ADITYA BIRLA</td>
-                    <td>$1.02</td>
-                    <td>-1.01</td>
-                    <td>+2.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAC</td>
-                    <td>AUSTRALIAN COMPANY </td>
-                    <td>$1.38</td>
-                    <td>+2.01</td>
-                    <td>-0.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAD</td>
-                    <td>AUSENCO</td>
-                    <td>$2.38</td>
-                    <td>-0.01</td>
-                    <td>-1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAX</td>
-                    <td>ADELAIDE</td>
-                    <td>$3.22</td>
-                    <td>+0.01</td>
-                    <td>+1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>XXD</td>
-                    <td>ADITYA BIRLA</td>
-                    <td>$1.02</td>
-                    <td>-1.01</td>
-                    <td>+2.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAC</td>
-                    <td>AUSTRALIAN COMPANY </td>
-                    <td>$1.38</td>
-                    <td>+2.01</td>
-                    <td>-0.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAD</td>
-                    <td>AUSENCO</td>
-                    <td>$2.38</td>
-                    <td>-0.01</td>
-                    <td>-1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAX</td>
-                    <td>ADELAIDE</td>
-                    <td>$3.22</td>
-                    <td>+0.01</td>
-                    <td>+1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>XXD</td>
-                    <td>ADITYA BIRLA</td>
-                    <td>$1.02</td>
-                    <td>-1.01</td>
-                    <td>+2.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAC</td>
-                    <td>AUSTRALIAN COMPANY </td>
-                    <td>$1.38</td>
-                    <td>+2.01</td>
-                    <td>-0.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAD</td>
-                    <td>AUSENCO</td>
-                    <td>$2.38</td>
-                    <td>-0.01</td>
-                    <td>-1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAX</td>
-                    <td>ADELAIDE</td>
-                    <td>$3.22</td>
-                    <td>+0.01</td>
-                    <td>+1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>XXD</td>
-                    <td>ADITYA BIRLA</td>
-                    <td>$1.02</td>
-                    <td>-1.01</td>
-                    <td>+2.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAC</td>
-                    <td>AUSTRALIAN COMPANY </td>
-                    <td>$1.38</td>
-                    <td>+2.01</td>
-                    <td>-0.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAD</td>
-                    <td>AUSENCO</td>
-                    <td>$2.38</td>
-                    <td>-0.01</td>
-                    <td>-1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAX</td>
-                    <td>ADELAIDE</td>
-                    <td>$3.22</td>
-                    <td>+0.01</td>
-                    <td>+1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>XXD</td>
-                    <td>ADITYA BIRLA</td>
-                    <td>$1.02</td>
-                    <td>-1.01</td>
-                    <td>+2.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAC</td>
-                    <td>AUSTRALIAN COMPANY </td>
-                    <td>$1.38</td>
-                    <td>+2.01</td>
-                    <td>-0.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAD</td>
-                    <td>AUSENCO</td>
-                    <td>$2.38</td>
-                    <td>-0.01</td>
-                    <td>-1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAX</td>
-                    <td>ADELAIDE</td>
-                    <td>$3.22</td>
-                    <td>+0.01</td>
-                    <td>+1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>XXD</td>
-                    <td>ADITYA BIRLA</td>
-                    <td>$1.02</td>
-                    <td>-1.01</td>
-                    <td>+2.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAC</td>
-                    <td>AUSTRALIAN COMPANY </td>
-                    <td>$1.38</td>
-                    <td>+2.01</td>
-                    <td>-0.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAD</td>
-                    <td>AUSENCO</td>
-                    <td>$2.38</td>
-                    <td>-0.01</td>
-                    <td>-1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>AAX</td>
-                    <td>ADELAIDE</td>
-                    <td>$3.22</td>
-                    <td>+0.01</td>
-                    <td>+1.36%</td>
-                    </tr>
-                    <tr>
-                    <td>XXD</td>
-                    <td>ADITYA BIRLA</td>
-                    <td>$1.02</td>
-                    <td>-1.01</td>
-                    <td>+2.36%</td>
-                    </tr>
+
                 </tbody>
                 </table>
             </div>
@@ -252,8 +65,8 @@ const Precos = () =>{
 
             <div class="made-with-love">
             Made with
-            <i>♥</i> by
-            <a target="_blank" href="https://codepen.io/nikhil8krishnan">Nikhil Krishnan</a>
+            <i>♥</i> 
+            <a target="_blank" href=""></a>
             </div>
         </>
     );
