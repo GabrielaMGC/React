@@ -1,4 +1,4 @@
-import React from "react";
+import react from 'react';
 import './NavBar.css';
 import aviao from '../Imagens/aviao.png'
 import styled from "styled-components";
@@ -34,6 +34,9 @@ function Navbar (){
               </li>
               <li class="nav-item">
               <Link to="/precos" class="nav-link active">Preços Atuais</Link>
+              </li>
+              <li class="nav-item">
+              <Link to="/exemplo_grid" class="nav-link active">Exemplo Grid</Link>
               </li>
             </ul>
             <form class="d-flex">

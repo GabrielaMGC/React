@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    border: 2px solid  rgb(0, 0, 0);
+    background-color: deeppink;
+    padding: 5px;
+    width: 100vw;
+    height: 80%;
+}
+
+.item{
+    border: 2px solid black;
+    background-color: forestgreen;
+    height: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 776px){
+    .container{
+      grid-template-columns: 40vw 40vw;  
+    }
+}
+
+@media screen and (max-width: 450px){
+    .container{
+      grid-template-columns: 85vw;  
+    }
+}
