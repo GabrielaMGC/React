@@ -5,6 +5,7 @@ import Hotel from './Components/hotel';
 import Coisas_para_levar from './Components/coisas_para_levar';
 import { Routes, Route } from "react-router-dom";
 import Precos from './Components/precos';
+import Exemplo_Grid from './Components/exemplo_grid';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/coisas_para_levar" element={ <Coisas_para_levar/> } />
         <Route path="/precos" element={ <Precos/> } />
         <Route path="/hotel" element={ <Hotel/> } />
+        <Route path="/exemplo_grid" element={ <Exemplo_Grid/> } />
       </Routes>
    </>
  );
