@@ -22,5 +22,9 @@ https://nodejs.org/en/download/
 
 # 5
 
+``` npm install @emailjs/browser --save```
+
+# 6
+
 ```nmp start```
 
