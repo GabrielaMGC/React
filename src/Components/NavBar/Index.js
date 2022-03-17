@@ -38,6 +38,9 @@ function Navbar (){
               <li class="nav-item">
               <Link to="/exemplo_grid" class="nav-link active">Exemplo Grid</Link>
               </li>
+              <li class="nav-item">
+              <Link to="/contato" class="nav-link active">Contato</Link>
+              </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2 pesquisar" type="search" placeholder="Pesquisar..." aria-label="Search"/>
